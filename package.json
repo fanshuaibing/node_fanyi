@@ -1,7 +1,13 @@
 {
-  "name": "node-fanyi",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "fanyi-f",
+  "version": "0.0.6",
+  "main": "dist/main.js",
+  "bin": {
+    "fy": "dist/cli.js"
+  },
+  "files": [
+    "dist/**/*.js"
+  ],
   "license": "MIT",
   "dependencies": {
     "commander": "^5.1.0",
